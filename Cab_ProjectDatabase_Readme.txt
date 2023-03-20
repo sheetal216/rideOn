@@ -15,7 +15,7 @@ Age		Age
 --------------------------------------------------------------------------
 --  CabType table
 Cab_type	Type of cab 
-Price		basic price that it will charge extra other than travel price
+Price	  basic price that it will charge extra other than travel price
 Waiting_price	charges that it will take for waiting 
 Max_passenger	capacity of cab
 
