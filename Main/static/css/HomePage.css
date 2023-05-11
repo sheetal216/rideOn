@@ -1,0 +1,90 @@
+*{
+    background-color: #fbfbfb;
+}
+
+#header
+{
+    position: absolute;
+    width: 100vw;
+    height: 30px;
+    left: 0px;
+    top: 65px;
+    background: #000000;
+}
+
+#footer
+{
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    left: 0px;
+    bottom: 0px;
+    background: #373737;
+}
+
+.box
+{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    background: #85a7ac;
+
+    border: 0.5px solid #878787;
+    border-radius: 10px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.loginbutton
+{
+    position: relative;
+    width: 500px;
+    height: 50px;
+    left: 50px;
+    border: 1px solid #000000;
+    background: #ffffff;
+    border-radius: 8px;
+
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 70;
+    font-size: 17px;
+    line-height: 47px;
+
+    color: #000000;
+
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.loginbutton:hover
+{
+    box-shadow: 2px 2px 6px 0px #000000;
+    background: #000000;
+    color: #eeedc0;
+}
+
+.loginbutton:active
+{
+    box-shadow: 0px 0px #000000;
+    top:2px;
+}
+
+#customer
+{
+    top: 75px;
+}
+#driver
+{
+    top: 125px;
+}
+
+#admin
+{
+    top: 175px;
+}
